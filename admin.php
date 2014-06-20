@@ -13,7 +13,7 @@ add_action('wp_ajax_party_rsvp_delete_event', 'party_rsvp_delete_event');
 
 function party_rsvp_admin_header(){
 	?>
-    <script type="text/javascript" src="http://jzaefferer.github.com/jquery-validation/jquery.validate.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.12.0/jquery.validate.js"></script>
 	<script type="text/javascript">
 	
 	var $ = jQuery;
